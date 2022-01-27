@@ -19,5 +19,9 @@
   "homepage": "https://github.com/Hir0ta/NodeJS#readme",
   "devDependencies": {
     "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "express": "^4.17.2"
   }
 }

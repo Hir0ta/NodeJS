@@ -4,8 +4,8 @@
   "description": "Node JS learning project",
   "main": "app.js",
   "scripts": {
-	"test": "echo \"Error: no test specified\" && exit 1",
-	"start": "node app.js"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Hir0ta/NodeJS/issues"
   },
-  "homepage": "https://github.com/Hir0ta/NodeJS#readme"
+  "homepage": "https://github.com/Hir0ta/NodeJS#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
 }

@@ -4,4 +4,4 @@ const routes = require('./routes');
 const server = http.createServer(routes.handler);
 
 server.listen(3000,'localhost');
-console.log('Server started');
+console.log('Server is running');
